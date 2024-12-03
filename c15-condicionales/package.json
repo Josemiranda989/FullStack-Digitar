@@ -1,0 +1,16 @@
+{
+  "name": "c15-condicionales",
+  "version": "1.0.0",
+  "main": "condicionales.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "milanesa": "echo \"Me encanta la milanesa\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
