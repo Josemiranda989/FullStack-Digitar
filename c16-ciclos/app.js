@@ -7,7 +7,7 @@ DO WHILE
 FOR
 */
 
-/* WHILE = Evalua una condicion y si ésta es verdadera ejecuta el bloque de código, hasta que la condicion sea false */
+/*  WHILE = Evalua una condicion y si ésta es verdadera ejecuta el bloque de código, hasta que la condicion sea false */
 
 /* let num1 = 10;
 while (num1 <= 5) {
