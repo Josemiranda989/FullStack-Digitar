@@ -1,0 +1,67 @@
+:root {
+    --black: #041122;
+    --grey: #5e5e5e;
+    --primary: #259073;
+    --secondary: #7fda89;
+    --green-lite: #c8e98e;
+    --white: hsl(72, 56%, 95%);
+  }
+
+.banner {
+    height: 250px;
+    background-image: url("./images/banner.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.banner button {
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 24px;
+}
+.container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin: 20px 0;
+}
+
+section h2 { 
+    text-align:center;
+
+}
+
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    background-color: white;
+    width: 85%;
+    max-width: 400px;
+
+}
+.card img {
+    width: 100%;
+}
+
+.card div {
+    margin: 10px;
+}
+
+.btn {
+    background-color: var(--primary);
+    color:var(--white);
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius:5px;
+    border: none;
+    box-shadow: 10px 5px 5px var(--grey);
+}

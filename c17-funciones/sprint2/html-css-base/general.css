@@ -1,0 +1,100 @@
+:root {
+  --black: #041122;
+  --grey: #5e5e5e;
+  --primary: #259073;
+  --secondary: #7fda89;
+  --green-lite: #c8e98e;
+  --white: hsl(72, 56%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: var(--white);
+  font-family:  "Itim", cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--white);
+    text-decoration:none;
+}
+
+/* Navbar */
+.navbar__top {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.top__icon{
+    color: var(--white);
+    font-size: 1.5rem;
+    display: flex;
+    gap:10px
+}
+
+.navbar__bottom {
+    background-color: var(--grey);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navbar__logo {
+    width:150px
+}
+
+.navbar__links {
+    color: var(--white);
+    font-size: 1.2rem;
+    display: flex;
+    gap: 5px
+}
+
+@media (min-width: 400px){
+    .navbar__links{
+        font-size: 0.8rem;
+    }
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.link__printAll { 
+    display: none;
+}
+
+.footer a {
+    font-size: 1.5rem;
+}
+
+.socials__icons{
+    display: flex;
+    font-size: 2.5rem;
+    gap: 5px;
+}
+
+@media (min-width: 400px){
+    .link__printAll { 
+        display: block;
+    }
+}
+

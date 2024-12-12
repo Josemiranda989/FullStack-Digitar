@@ -1,0 +1,27 @@
+[
+  { "titulo": "M.A.I", "album": "1 1 1", "año": 2023 },
+  {
+    "titulo": "Una Bala",
+    "album": "1 1 1",
+    "año": 2023,
+    "colaboracion": "Peso Pluma"
+  },
+  {
+    "titulo": "Carencias de Cordura",
+    "album": "1 1 1",
+    "año": 2023,
+    "colaboracion": "Yami Safdie"
+  },
+  {
+    "titulo": "No Soy Eterno",
+    "album": "1 1 1",
+    "año": 2023,
+    "colaboracion": "Bizarrap"
+  },
+  {
+    "titulo": "Fruto",
+    "album": "1 1 1",
+    "año": 2023,
+    "colaboracion": "Bizarrap"
+  }
+]

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>printAll</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Itim&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__top">
+        <input type="text" placeholder="Pikachu..." />
+
+        <ul class="top__icon">
+          <li>
+            <i class="fa-solid fa-message"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-bell"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-user-ninja"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__bottom">
+        <a href="/">
+          <img class="navbar__logo" src="/images/printall.png" alt="Logo" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="https://facebook.com">3d Models</a></li>
+          <li><a href="https://facebook.com">Store</a></li>
+          <li><a href="https://facebook.com">Brand</a>s</li>
+          <li><a href="https://facebook.com">Blogs</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main>
+      <h1>Nuevo Producto</h1>
+
+      <form action="/" method="get">
+        <div>
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="Vaso 500ML" />
+        </div>
+
+        <div>
+          <label for="descripcion">Descripcion</label>
+          <textarea
+            name="descripcion"
+            id="descripcion"
+            placeholder="Impreso en PLA multicolor..."
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="category">Categoria</label>
+          <select name="category" id="category">
+            <option selected disabled>Selecciona una opcion</option>
+            <option value="hogar">Hogar</option>
+            <option value="geek">Geek</option>
+            <option value="figuras">Figuras</option>
+            <option value="soportes">Soportes</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="colors">Color</label>
+          <select name="colors" id="colors">
+            <option selected disabled>Selecciona una opcion</option>
+            <option value="#ffffff">Blanco</option>
+            <option value="#2dc548">Verde</option>
+            <option value="#ff2d00">Rojo</option>
+            <option value="#eaf500">Amarillo</option>
+            <option value="#1300f5">Azul</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="filament">Filamento</label>
+          <select name="filament" id="filament">
+            <option selected disabled>Selecciona una opcion</option>
+            <option value="pla">PLA</option>
+            <option value="tpu">TPU</option>
+            <option value="abs">ABS</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="image">Imagen</label>
+          <input type="file" id="image" accept="image/*" />
+        </div>
+
+        <div>
+          <label for="size">Tamaño</label>
+          <select name="size" id="size">
+            <option selected disabled>Selecciona una opcion</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="price">Precio</label>
+          <input type="number" name="price" id="price" />
+        </div>
+
+        <div>
+          <label for="available">Disponible</label>
+          <input type="checkbox" name="available" id="available" />
+        </div>
+
+        <button type="submit">Crear</button>
+      </form>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="http://instagram.com/printall.tuc">printAll.com.ar</a>
+      <ul>
+        <li><a href="https://google.com.ar" target="_blank">Link1</a></li>
+        <li><a href="https://google.com.ar" target="_blank">Link2</a></li>
+        <li><a href="https://google.com.ar" target="_blank">Link3</a></li>
+        <li><a href="https://google.com.ar" target="_blank">Link4</a></li>
+      </ul>
+      <ul>
+        <li><i class="fa-brands fa-square-instagram"></i></li>
+        <li><i class="fa-brands fa-square-facebook"></i></li>
+        <li><i class="fa-brands fa-square-whatsapp"></i></li>
+      </ul>
+    </footer>
+  </body>
+</html>
