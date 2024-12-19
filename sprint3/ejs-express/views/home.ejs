@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Head -->
+  <%- include('./partials/head.ejs', {style:'home', page:'!'}) %>
+  <body>
+    <%- include('./partials/navbar.ejs') %>
+    <!-- Main -->
+    <main>
+      <h1><%= textOfBackend %></h1>
+      <section class="banner">
+        <h3>Impréndete en el mundo de la fabricación digital</h3>
+        <button>Click Aquí</button>
+      </section>
+      <section class="container">
+        <h2>Featured Models</h2>
+        <div class="cards__container">
+          <% for( let index = 1; index <= 100; index++ ) { %>
+          <article class="card">
+            <img
+              src="/images\products/20241005_083739.webp"
+              alt="product-image"
+            />
+            <div>
+              <h4>Batery Stand</h4>
+              <p>$20</p>
+            </div>
+          </article>
+          <% } %>
+        </div>
+        <button type="submit" class="btn">More Models</button>
+      </section>
+
+      <section class="container">
+        <h2>Newest Models</h2>
+        <div class="cards__container">
+          <article class="card">
+            <img src="images\products/ducts.webp" alt="product-image" />
+            <div>
+              <h4>Batery Stand</h4>
+              <p>$20</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="./images\products/20241005_083739.webp"
+              alt="product-image"
+            />
+            <div>
+              <h4>Batery Stand</h4>
+              <p>$20</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="./images\products/img_3265.webp" alt="product-image" />
+            <div>
+              <h4>Batery Stand</h4>
+              <p>$20</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img
+              src="./images\products/small-thumbnail.webp"
+              alt="product-image"
+            />
+            <div>
+              <h4>Batery Stand</h4>
+              <p>$20</p>
+            </div>
+          </article>
+        </div>
+        <button class="btn">Explore Models</button>
+      </section>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

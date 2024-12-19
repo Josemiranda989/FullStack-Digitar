@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>printAll</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Itim&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__top">
+        <input type="text" placeholder="Pikachu..." />
+
+        <ul class="top__icon">
+          <li>
+            <i class="fa-solid fa-message"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-bell"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-user-ninja"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__bottom">
+        <a href="/">
+          <img class="navbar__logo" src="/images/printall.png" alt="Logo" />
+        </a>
+        <ul class="navbar__links">
+          <li><a href="https://facebook.com">3d Models</a></li>
+          <li><a href="https://facebook.com">Store</a></li>
+          <li><a href="https://facebook.com">Brand</a>s</li>
+          <li><a href="https://facebook.com">Blogs</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main>
+      <h1>Registrarse</h1>
+
+      <form action="/" method="get">
+        <div>
+          <label for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Lucas Padilla"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="lucas@dh.com"
+          />
+        </div>
+
+        <div>
+          <label for="direction">Direccion</label>
+          <input
+            type="text"
+            name="direction"
+            id="direction"
+            placeholder="Siempre viva 123"
+          />
+        </div>
+
+        <div>
+          <label for="phonenumber">Teléfono</label>
+          <input type="number" name="phonenumber" id="phonenumber" />
+        </div>
+
+        <div>
+          <label for="avatar">Foto Perfil</label>
+          <input type="file" name="avatar" id="avatar" />
+        </div>
+
+        <div>
+          <label for="password">Contraseña</label>
+          <input type="password" name="password" id="password" />
+        </div>
+
+        <button type="submit">Registrarse</button>
+      </form>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
