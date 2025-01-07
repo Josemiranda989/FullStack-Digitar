@@ -1,0 +1,155 @@
+[
+ {
+  "id": "001",
+  "nombre": "Pelota de fútbol",
+  "categoria": "Deportes",
+  "precio": 50,
+  "descuento": 10,
+  "stock": 150,
+  "url_imagen": "https://example.com/pelotas_de_futbol.jpg"
+ },
+ {
+  "id": "002",
+  "nombre": "Juego de mesa",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 15,
+  "stock": 80,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "003",
+  "nombre": "Libro de cuentos",
+  "categoria": "Libros",
+  "precio": 70,
+  "descuento": 5,
+  "stock": 200,
+  "url_imagen": "https://example.com/libro_de_cuentos.jpg"
+ },
+ {
+  "id": "004",
+  "nombre": "Set de maquillaje",
+  "categoria": "Belleza",
+  "precio": 90,
+  "descuento": 20,
+  "stock": 60,
+  "url_imagen": "https://example.com/set_de_maquillaje.jpg"
+ },
+ {
+  "id": "005",
+  "nombre": "Auriculares inalámbricos",
+  "categoria": "Tecnología",
+  "precio": 150,
+  "descuento": 0,
+  "stock": 100,
+  "url_imagen": "https://example.com/auriculares_inalambricos.jpg"
+ },
+ {
+  "id": "5c742e9f-6f77-4339-be71-107867d505a7",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "9761f013-70fc-437e-b514-886a0e413f6d",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "fdf64881-da5a-4186-8b96-bd7c318ab6a1",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "5a62cce3-f960-4092-bbba-42a68092da4d",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "ca6d4c7a-0fca-44c8-befc-11a3ae8926b8",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "03a4775c-7552-4c5e-9cd1-692f6e264520",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "c258cac1-f37b-43b5-9529-f156aa3df2ee",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "6185ac2a-53cf-4045-8a26-9a0e2fb64df5",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "7725afc9-3cb4-4f11-90e5-fdb1c77e820e",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "ada1656d-1e22-4484-90aa-fa7287292af2",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "d0ac1114-d91e-4077-94e3-61d01b5d3471",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ },
+ {
+  "id": "c488efb9-88ea-4bdf-8c68-4502baed2b23",
+  "nombre": "Rifle Hidrogel",
+  "categoria": "Juguetes",
+  "precio": 120,
+  "descuento": 0,
+  "stock": 20,
+  "url_imagen": "https://example.com/juegos_de_mesa.jpg"
+ }
+]

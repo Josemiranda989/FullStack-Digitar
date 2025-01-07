@@ -1,0 +1,15 @@
+{
+  "name": "c21-filesystem",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon -q app.js"
+  },
+  "author": "josemiranda989",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "uuid": "^11.0.4"
+  }
+}
