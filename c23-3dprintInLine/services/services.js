@@ -22,7 +22,7 @@ const addClient = () => {
   const name = readline.question("Ingrese el nombre del cliente: \n");
   const email = readline.question("Ingrese el email del cliente: \n");
   const newClient = {
-    id: clients.length + 1
+    id: clients.length + 1,
     name: name,
     email: email,
   };
