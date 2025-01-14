@@ -1,0 +1,26 @@
+[
+ {
+  "id": 1,
+  "clienteId": 1,
+  "descripcion": "Jarra",
+  "material": "PLA",
+  "cantidad": 10,
+  "estado": "pendiente"
+ },
+ {
+  "id": 2,
+  "clienteId": 1,
+  "descripcion": "joadsjo",
+  "material": "dsa",
+  "cantidad": 1,
+  "estado": "pendiente"
+ },
+ {
+  "id": 3,
+  "clienteId": 2,
+  "descripcion": "Gatito",
+  "material": "PETG",
+  "cantidad": 5,
+  "estado": "pendiente"
+ }
+]
