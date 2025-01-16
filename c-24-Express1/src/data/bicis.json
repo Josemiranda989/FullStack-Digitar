@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bicicleta Mountain Bike Overtech R29",
+    "marca": "Overtech",
+    "precio": 400.999,
+    "imagen": "https://example.com/image1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Bicicleta Mountain Bike Fire Bird Eco",
+    "marca": "Fire Bird",
+    "precio": 357.12,
+    "imagen": "https://example.com/image2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Bicicleta Road Bike Shimano SL",
+    "marca": "Shimano",
+    "precio": 329.414,
+    "imagen": "https://example.com/image3.jpg"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Bicicleta Mountain Bike Taurus-17V R29",
+    "marca": "Taurus",
+    "precio": 469.999,
+    "imagen": "https://example.com/image4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Bicicleta BMX Philco R20\" Patio",
+    "marca": "Philco",
+    "precio": 272.999,
+    "imagen": "https://example.com/image5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Bicicleta Mountain Bike Gribom 2951LDI",
+    "marca": "Gribom",
+    "precio": 527.799,
+    "imagen": "https://example.com/image6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Bicicleta Country R26\" Futura",
+    "marca": "Futura",
+    "precio": 272.999,
+    "imagen": "https://example.com/image7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Bicicleta BMX Freestyle Stark",
+    "marca": "Stark",
+    "precio": 327.599,
+    "imagen": "https://example.com/image8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Bicicleta MTB Lynce R29",
+    "marca": "Lynce",
+    "precio": 439.999,
+    "imagen": "https://example.com/image9.jpg"
+  }
+]

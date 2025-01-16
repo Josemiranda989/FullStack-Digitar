@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/header.ejs') %>
+
+    <main>
+      <h1>Catálogo de Bicicletas</h1>
+      <div class="container">
+        <% bicis.forEach(bici => { %>
+        <div class="card">
+          <img src="<%= bici.imagen %>" alt="<%= bici.nombre %>" />
+          <h2><%= bici.nombre %></h2>
+          <p>Marca: <%= bici.marca %></p>
+          <p>Precio: $<%= bici.precio %></p>
+        </div>
+        <% }) %>
+      </div>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
