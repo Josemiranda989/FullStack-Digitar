@@ -1,0 +1,113 @@
+[
+ {
+  "id": 1,
+  "nombre": "Bicicleta Mountain Bike Overtech R29",
+  "marca": "Overtech",
+  "precio": 400.999,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 2,
+  "nombre": "Bicicleta Mountain Bike Fire Bird Eco",
+  "marca": "Fire Bird",
+  "precio": 357.12,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 3,
+  "nombre": "Bicicleta Road Bike Shimano SL",
+  "marca": "Shimano",
+  "precio": 329.414,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 4,
+  "nombre": "Bicicleta Mountain Bike Taurus-17V R29",
+  "marca": "Taurus",
+  "precio": 469.999,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 5,
+  "nombre": "Bicicleta BMX Philco R20\" Patio",
+  "marca": "Philco",
+  "precio": 272.999,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 6,
+  "nombre": "Bicicleta Mountain Bike Gribom 2951LDI",
+  "marca": "Gribom",
+  "precio": 527.799,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 7,
+  "nombre": "Bicicleta Country R26\" Futura",
+  "marca": "Futura",
+  "precio": 272.999,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 8,
+  "nombre": "Bicicleta BMX Freestyle Stark",
+  "marca": "Stark",
+  "precio": 327.599,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 9,
+  "nombre": "Bicicleta MTB Lynce R29",
+  "marca": "Lynce",
+  "precio": 439.999,
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 10,
+  "nombre": "Hitway 26",
+  "marca": "Xiaomi",
+  "precio": "250",
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 11,
+  "marca": "asdad",
+  "precio": "12313",
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 12,
+  "nombre": "Shimano 28\"",
+  "marca": "Shimano",
+  "precio": "1000",
+  "imagen": "https://http2.mlstatic.com/D_NQ_NP_753134-MLA70987854918_082023-OO.webp"
+ },
+ {
+  "id": 13,
+  "nombre": "Rockhopper",
+  "marca": "Specialized",
+  "precio": "500",
+  "imagen": "/images/products/prod-1737659781294.webp"
+ },
+ {
+  "id": 14,
+  "nombre": "La konga",
+  "marca": "Venzo",
+  "precio": "1231",
+  "imagen": "/images/products/prod-1737659893639.webp"
+ },
+ {
+  "id": 15,
+  "nombre": "Rodado 29",
+  "marca": "Venzo",
+  "precio": "1432",
+  "imagen": "/images/products/prod-1737660147011.jpg"
+ },
+ {
+  "id": 16,
+  "nombre": "Rodado 29",
+  "marca": "sadsa",
+  "precio": "12321",
+  "imagen": "/images/products/undefined"
+ }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head.ejs') %>
+  <body>
+    <%- include('../partials/header.ejs') %>
+
+    <form
+      class="form"
+      action="/productos/crear"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <h1>Agregar nuevo producto</h1>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          placeholder="Bicicleta..."
+          name="nombre"
+          id="nombre"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="marca">Marca</label>
+        <input type="text" placeholder="Venzo" name="marca" id="marca" />
+      </div>
+
+      <div class="form-group">
+        <label for="precio">Precio</label>
+        <input type="number" placeholder="100" name="precio" id="precio" />
+      </div>
+
+      <div class="form-group">
+        <label for="imagen">Imagen</label>
+        <input type="file" name="imagen" id="imagen" />
+      </div>
+
+      <button class="btn" type="submit">Crear</button>
+    </form>
+
+    <%- include('../partials/footer.ejs') %>
+  </body>
+</html>
