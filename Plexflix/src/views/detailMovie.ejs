@@ -3,25 +3,27 @@
 <%- include('./partials/head.ejs') %>
 <body>
     <%- include('./partials/navbar.ejs') %>
-    <h1 class="text-xl font-bold underline">
-        NOMBRE PELICULA
-      </h1>
 
-    
+    <% if (movie) { %>
+      <h1 class="text-xl font-bold underline">
+        <%= movie.title %>
+      </h1>    
       <!-- Tarjeta de película -->
       <div class="bg-gray-900 text-white rounded-lg shadow-md overflow-hidden">
         <img
-          src="https://via.placeholder.com/300x400"
-          alt="Nombre de la película"
+          src="https://picsum.photos/100/300"
+          alt="poster-<%= movie.title %>"
           class="w-full h-60 object-cover"
         />
         <div class="p-4">
-          <h3 class="text-lg font-bold">Título de la Película</h3>
-          <p class="text-sm text-gray-400">Duración: 2h 15m</p>
-          <p class="text-sm text-gray-400">Rating: ⭐⭐⭐⭐☆ (4.5)</p>
+          <h3 class="text-lg font-bold"><%= movie.title %></h3>
+          <p class="text-sm text-gray-400">Duración: <%= movie.length %> m</p>
+          <p class="text-sm text-gray-400">Rating: <%= movie.rating %></p>
         </div>
       </div>
-     
+    <% }else {%>
+        <h1> La pelicula no existe </h1>
+     <% } %>
     
 
       <%- include('./partials/footer.ejs') %>
