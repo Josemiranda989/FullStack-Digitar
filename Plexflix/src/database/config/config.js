@@ -4,7 +4,8 @@ module.exports = {
     "password": null,
     "database": "plexflix",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "timestamps": false
   },
   "test": {
     "username": "root",

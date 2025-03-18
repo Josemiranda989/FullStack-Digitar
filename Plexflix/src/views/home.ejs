@@ -12,7 +12,7 @@
       <% movies.forEach(movie => { %>
         <div class="bg-gray-900 text-white rounded-lg shadow-md overflow-hidden">
           <img
-            src="https://picsum.photos/200/300"
+            src="<%= movie.images.length > 0 ? movie.images[0].URL : 'https://picsum.photos/200/300' %>"
             alt="Nombre de la película"
             class="w-full h-60 object-cover"
           />
