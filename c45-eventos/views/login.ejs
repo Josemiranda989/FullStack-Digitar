@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="bg-secondary p-3">Express</header>
+
+    <ul class="errors"></ul>
+
+    <form
+      class="bg-primary mt-2 mb-2 d-flex justify-content-center flex-column"
+      id="form"
+      action="/users/create"
+      method="get"
+    >
+      <h1 class="text-center text-secondary">Login Form</h1>
+      <div class="input-group">
+        <label for="email">Ingrese su email</label>
+        <input id="email" name="email" type="text" />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Ingrese su contraseña</label>
+        <input id="password" name="password" type="password" />
+      </div>
+
+      <div class="input-group">
+        <button id="btn" class="btn p-2 bg-secondary rounded mb-2">
+          Iniciar sesion
+        </button>
+      </div>
+    </form>
+
+    <footer class="bg-secondary p-3">Todos los derechos reservados</footer>
+
+    <script src="/javascripts/validations/login.js"></script>
+  </body>
+</html>

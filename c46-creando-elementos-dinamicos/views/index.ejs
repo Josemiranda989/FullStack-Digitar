@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <form id="form" action="">
+      <label for="name"> Name </label>
+      <input type="text" id="name" name="name" />
+      <br />
+      <label for="email"> Email </label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <label for="password"> Password </label>
+      <input type="password" id="password" name="password" />
+      <br />
+      <label for="number"> PhoneNumber </label>
+      <input type="number" id="number" name="number" />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <br />
+    <br />
+
+    <section id="container">
+      <table id="user-table" border="1">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Rol</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <footer>Footer 2025</footer>
+    <!-- Validator js -->
+    <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+    <!-- Main Javascript import -->
+    <script src="/javascripts/main.js"></script>
+  </body>
+</html>
