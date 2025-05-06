@@ -1,0 +1,15 @@
+.card {
+  width: 200px;
+  border: 1px seashell solid;
+  margin: 5px 0;
+}
+
+.card h3 {
+  font-size: 2rem;
+  border: 1px seashell solid;
+}
+
+.card div {
+  display: flex;
+  border: 1px seashell solid;
+}

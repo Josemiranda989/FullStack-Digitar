@@ -1,6 +1,5 @@
-.ul {
+.container {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  list-style-type: none;
+  flex-wrap: wrap;
 }
